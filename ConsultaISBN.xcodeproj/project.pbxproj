@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		824BCD1B1C979D69000847B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824BCD1A1C979D69000847B9 /* AppDelegate.swift */; };
+		824BCD1D1C979D69000847B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824BCD1C1C979D69000847B9 /* ViewController.swift */; };
+		824BCD201C979D69000847B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824BCD1E1C979D69000847B9 /* Main.storyboard */; };
+		824BCD221C979D69000847B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824BCD211C979D69000847B9 /* Assets.xcassets */; };
+		824BCD251C979D69000847B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824BCD231C979D69000847B9 /* LaunchScreen.storyboard */; };
+		824BCD301C979D69000847B9 /* ConsultaISBNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824BCD2F1C979D69000847B9 /* ConsultaISBNTests.swift */; };
+		824BCD3B1C979D69000847B9 /* ConsultaISBNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824BCD3A1C979D69000847B9 /* ConsultaISBNUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		824BCD2C1C979D69000847B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 824BCD0F1C979D69000847B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 824BCD161C979D69000847B9;
+			remoteInfo = ConsultaISBN;
+		};
+		824BCD371C979D69000847B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 824BCD0F1C979D69000847B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 824BCD161C979D69000847B9;
+			remoteInfo = ConsultaISBN;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		824BCD171C979D69000847B9 /* ConsultaISBN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConsultaISBN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		824BCD1A1C979D69000847B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		824BCD1C1C979D69000847B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		824BCD1F1C979D69000847B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		824BCD211C979D69000847B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		824BCD241C979D69000847B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		824BCD261C979D69000847B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		824BCD2B1C979D69000847B9 /* ConsultaISBNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConsultaISBNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		824BCD2F1C979D69000847B9 /* ConsultaISBNTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultaISBNTests.swift; sourceTree = "<group>"; };
+		824BCD311C979D69000847B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		824BCD361C979D69000847B9 /* ConsultaISBNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConsultaISBNUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		824BCD3A1C979D69000847B9 /* ConsultaISBNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultaISBNUITests.swift; sourceTree = "<group>"; };
+		824BCD3C1C979D69000847B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		824BCD141C979D69000847B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		824BCD281C979D69000847B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		824BCD331C979D69000847B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		824BCD0E1C979D69000847B9 = {
+			isa = PBXGroup;
+			children = (
+				824BCD191C979D69000847B9 /* ConsultaISBN */,
+				824BCD2E1C979D69000847B9 /* ConsultaISBNTests */,
+				824BCD391C979D69000847B9 /* ConsultaISBNUITests */,
+				824BCD181C979D69000847B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		824BCD181C979D69000847B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				824BCD171C979D69000847B9 /* ConsultaISBN.app */,
+				824BCD2B1C979D69000847B9 /* ConsultaISBNTests.xctest */,
+				824BCD361C979D69000847B9 /* ConsultaISBNUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		824BCD191C979D69000847B9 /* ConsultaISBN */ = {
+			isa = PBXGroup;
+			children = (
+				824BCD1A1C979D69000847B9 /* AppDelegate.swift */,
+				824BCD1C1C979D69000847B9 /* ViewController.swift */,
+				824BCD1E1C979D69000847B9 /* Main.storyboard */,
+				824BCD211C979D69000847B9 /* Assets.xcassets */,
+				824BCD231C979D69000847B9 /* LaunchScreen.storyboard */,
+				824BCD261C979D69000847B9 /* Info.plist */,
+			);
+			path = ConsultaISBN;
+			sourceTree = "<group>";
+		};
+		824BCD2E1C979D69000847B9 /* ConsultaISBNTests */ = {
+			isa = PBXGroup;
+			children = (
+				824BCD2F1C979D69000847B9 /* ConsultaISBNTests.swift */,
+				824BCD311C979D69000847B9 /* Info.plist */,
+			);
+			path = ConsultaISBNTests;
+			sourceTree = "<group>";
+		};
+		824BCD391C979D69000847B9 /* ConsultaISBNUITests */ = {
+			isa = PBXGroup;
+			children = (
+				824BCD3A1C979D69000847B9 /* ConsultaISBNUITests.swift */,
+				824BCD3C1C979D69000847B9 /* Info.plist */,
+			);
+			path = ConsultaISBNUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		824BCD161C979D69000847B9 /* ConsultaISBN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 824BCD3F1C979D69000847B9 /* Build configuration list for PBXNativeTarget "ConsultaISBN" */;
+			buildPhases = (
+				824BCD131C979D69000847B9 /* Sources */,
+				824BCD141C979D69000847B9 /* Frameworks */,
+				824BCD151C979D69000847B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConsultaISBN;
+			productName = ConsultaISBN;
+			productReference = 824BCD171C979D69000847B9 /* ConsultaISBN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		824BCD2A1C979D69000847B9 /* ConsultaISBNTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 824BCD421C979D69000847B9 /* Build configuration list for PBXNativeTarget "ConsultaISBNTests" */;
+			buildPhases = (
+				824BCD271C979D69000847B9 /* Sources */,
+				824BCD281C979D69000847B9 /* Frameworks */,
+				824BCD291C979D69000847B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				824BCD2D1C979D69000847B9 /* PBXTargetDependency */,
+			);
+			name = ConsultaISBNTests;
+			productName = ConsultaISBNTests;
+			productReference = 824BCD2B1C979D69000847B9 /* ConsultaISBNTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		824BCD351C979D69000847B9 /* ConsultaISBNUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 824BCD451C979D69000847B9 /* Build configuration list for PBXNativeTarget "ConsultaISBNUITests" */;
+			buildPhases = (
+				824BCD321C979D69000847B9 /* Sources */,
+				824BCD331C979D69000847B9 /* Frameworks */,
+				824BCD341C979D69000847B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				824BCD381C979D69000847B9 /* PBXTargetDependency */,
+			);
+			name = ConsultaISBNUITests;
+			productName = ConsultaISBNUITests;
+			productReference = 824BCD361C979D69000847B9 /* ConsultaISBNUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		824BCD0F1C979D69000847B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "José Manuel Mora";
+				TargetAttributes = {
+					824BCD161C979D69000847B9 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					824BCD2A1C979D69000847B9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 824BCD161C979D69000847B9;
+					};
+					824BCD351C979D69000847B9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 824BCD161C979D69000847B9;
+					};
+				};
+			};
+			buildConfigurationList = 824BCD121C979D69000847B9 /* Build configuration list for PBXProject "ConsultaISBN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 824BCD0E1C979D69000847B9;
+			productRefGroup = 824BCD181C979D69000847B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				824BCD161C979D69000847B9 /* ConsultaISBN */,
+				824BCD2A1C979D69000847B9 /* ConsultaISBNTests */,
+				824BCD351C979D69000847B9 /* ConsultaISBNUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		824BCD151C979D69000847B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				824BCD251C979D69000847B9 /* LaunchScreen.storyboard in Resources */,
+				824BCD221C979D69000847B9 /* Assets.xcassets in Resources */,
+				824BCD201C979D69000847B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		824BCD291C979D69000847B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		824BCD341C979D69000847B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		824BCD131C979D69000847B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				824BCD1D1C979D69000847B9 /* ViewController.swift in Sources */,
+				824BCD1B1C979D69000847B9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		824BCD271C979D69000847B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				824BCD301C979D69000847B9 /* ConsultaISBNTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		824BCD321C979D69000847B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				824BCD3B1C979D69000847B9 /* ConsultaISBNUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		824BCD2D1C979D69000847B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 824BCD161C979D69000847B9 /* ConsultaISBN */;
+			targetProxy = 824BCD2C1C979D69000847B9 /* PBXContainerItemProxy */;
+		};
+		824BCD381C979D69000847B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 824BCD161C979D69000847B9 /* ConsultaISBN */;
+			targetProxy = 824BCD371C979D69000847B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		824BCD1E1C979D69000847B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				824BCD1F1C979D69000847B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		824BCD231C979D69000847B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				824BCD241C979D69000847B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		824BCD3D1C979D69000847B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		824BCD3E1C979D69000847B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		824BCD401C979D69000847B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConsultaISBN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.com.morasoft.ConsultaISBN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		824BCD411C979D69000847B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConsultaISBN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.com.morasoft.ConsultaISBN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		824BCD431C979D69000847B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ConsultaISBNTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.com.morasoft.ConsultaISBNTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConsultaISBN.app/ConsultaISBN";
+			};
+			name = Debug;
+		};
+		824BCD441C979D69000847B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ConsultaISBNTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.com.morasoft.ConsultaISBNTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConsultaISBN.app/ConsultaISBN";
+			};
+			name = Release;
+		};
+		824BCD461C979D69000847B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ConsultaISBNUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.com.morasoft.ConsultaISBNUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ConsultaISBN;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		824BCD471C979D69000847B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ConsultaISBNUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.com.morasoft.ConsultaISBNUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ConsultaISBN;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		824BCD121C979D69000847B9 /* Build configuration list for PBXProject "ConsultaISBN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				824BCD3D1C979D69000847B9 /* Debug */,
+				824BCD3E1C979D69000847B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		824BCD3F1C979D69000847B9 /* Build configuration list for PBXNativeTarget "ConsultaISBN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				824BCD401C979D69000847B9 /* Debug */,
+				824BCD411C979D69000847B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		824BCD421C979D69000847B9 /* Build configuration list for PBXNativeTarget "ConsultaISBNTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				824BCD431C979D69000847B9 /* Debug */,
+				824BCD441C979D69000847B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		824BCD451C979D69000847B9 /* Build configuration list for PBXNativeTarget "ConsultaISBNUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				824BCD461C979D69000847B9 /* Debug */,
+				824BCD471C979D69000847B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 824BCD0F1C979D69000847B9 /* Project object */;
+}
